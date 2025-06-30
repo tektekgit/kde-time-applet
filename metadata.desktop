@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Time and Date on Wallpaper
+Comment=Displays the current time and date on your wallpaper
+Exec=plasma-windowed org.kde.plasma.applet.time_and_date
+Icon=accessories-calendar
+Type=Service
+X-KDE-ServiceTypes=Plasma/Applet
+X-Plasma-API=plasma/v2.0
+X-Plasma-Category=General
+X-Plasma-Component=Applet
+X-Plasma-Update-Interval=1000
