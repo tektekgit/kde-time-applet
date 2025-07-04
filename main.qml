@@ -1,6 +1,6 @@
-import QtQuick 6.0
+import QtQuick 2.0
 import org.kde.plasma.core 2.0 as PlasmaCore
-import QtQuick.Controls 6.9
+import QtQuick.Controls 1.0
 
 PlasmaCore.Applet {
     id: applet
