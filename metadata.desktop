@@ -1,11 +1,21 @@
 [Desktop Entry]
-Name=Time and Date on Wallpaper
-Comment=Displays the current time and date on your wallpaper
-Exec=plasma-windowed org.kde.plasma.applet.time_and_date
-Icon=accessories-calendar
+Name=Time Applet
+Comment=A customizable time display applet for KDE Plasma
+Icon=preferences-system-time
 Type=Service
 X-KDE-ServiceTypes=Plasma/Applet
-X-Plasma-API=plasma/v6.4
-X-Plasma-Category=General
-X-Plasma-Component=Applet
-X-Plasma-Update-Interval=1000
+X-KDE-Library=plasma_applet_timeapplet
+X-KDE-PluginInfo-Name=com.github.tektekgit.timeapplet
+X-KDE-PluginInfo-Category=Date and Time
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Author=tektek
+X-KDE-PluginInfo-Email=tekteksgames@gmail.com
+X-KDE-PluginInfo-Website=https://github.com/tektekgit/kde-time-applet
+X-KDE-PluginInfo-License=GPLv3
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PlasmaAPI=declarativeappletscript
+X-KDE-ParentApp=org.kde.plasmashell
+
+[Containments]
+X-Plasma-ContainmentType=Panel
+X-Plasma-DefaultSize=200,30
